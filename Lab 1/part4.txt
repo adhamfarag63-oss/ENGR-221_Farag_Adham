@@ -1,0 +1,8 @@
+a. The names of the functions defined in this file are adventure() and create_player().
+b. The adventure() function is called at the very bottom of the script inside the while loop (likely line 71 or 72).
+c. The create_player() function is called inside the adventure() function, a few lines before the if block (around line 20).
+d. The adventure() function is the first one called when the script is run, triggered by the while loop at the bottom.
+e. The input() function displays a prompt to the terminal, waits for the user to type a response, and returns that text as a string to be stored in a variable.
+f. It prints: "A unique specialty I do not recognize! Intriguing..."
+g. The curly braces {} act as placeholders. The .format() method inserts the values of the health and mana variables into those exact spots in the string.
+h. You could change the `return 0` statement at the end of the adventure() function to return a different number (like `return 1`). This would make `win` no longer equal to 0, breaking the `while win == 0:` loop.
